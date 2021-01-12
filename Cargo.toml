@@ -1,0 +1,21 @@
+[package]
+name = "backend"
+version = "0.1.0"
+authors = ["Steven He <hez2010@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.10.0"
+actix-identity = "0.3.1"
+actix-multipart = "0.3.0"
+actix-session = "0.4.0"
+actix-web = "3.3.2"
+actix-web-actors = "3.0.0"
+bcrypt = "0.9.0"
+chrono = { version = "0.4.19", features = ["serde"] }
+diesel = { version = "1.4.5", features = ["chrono", "postgres", "r2d2"] }
+dotenv = "0.15.0"
+serde = { version = "1.0.118", features = ["derive"] }
+serde_json = "1.0.60"
