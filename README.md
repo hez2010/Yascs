@@ -27,17 +27,17 @@ Configure database connection url via environment variable first:
 
 Bash：
 ```bash
-export DATABASE_URL=postgres://postgres:postgres@localhost/mosad
+export DATABASE_URL=postgres://username:password@address/database
 ```
 
 CMD：
 ```bash
-set DATABASE_URL=postgres://postgres:postgres@localhost/mosad
+set DATABASE_URL=postgres://username:password@address/database
 ```
 
 PowerShell：
 ```bash
-$env:DATABASE_URL="postgres://postgres:postgres@localhost/mosad"
+$env:DATABASE_URL="postgres://username:password@address/database"
 ```
 
 Add PostgreSQL `bin` directory to environment variable `PATH`, and `lib` directory to environment variable `LIB`, and then you're ready to go.
