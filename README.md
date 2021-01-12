@@ -1,8 +1,14 @@
 # Yet Another Simple Chat Server
 
+## Features
+- Messaging
+- Friend system
+- Realtime message streaming
+- Super fast and low resource usage
+
 ## Prerequsities
-- Rust 1.49
-- PostgreSQL 13
+- Rust 1.49+
+- PostgreSQL 13+
 
 ## Build
 ```bash
